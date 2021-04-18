@@ -21,6 +21,13 @@ ul {
   padding-bottom:10px;
 }
 
+.caption {
+  color: grey;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
 footer {
   text-align: center;
 }
@@ -285,9 +292,11 @@ footer {
 
 .fundraising-pictures {
   padding: 5%;
+  display: flex;
+  justify-content: center;
 }
 
-#img-fundraising-1, #img-fundraising-2, #img-fundraising-3 {
+#img-fundraising-1, #img-fundraising-2 {
   margin-right: 2%;
 }
 
@@ -321,5 +330,20 @@ footer {
   .hobbies img {
     width: 30%;
     height: 30%;
+  }
+  #video {
+    display: none;
+    width: 100%;
+    padding-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #img-fundraising-1, #img-fundraising-2, #img-fundraising-3 {
+    width: 33%;
+  }
+  #img-book-1, #img-book-2, #img-book-3 {
+    width: 100%;
   }
 }
