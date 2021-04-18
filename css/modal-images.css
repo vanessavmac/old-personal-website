@@ -1,14 +1,19 @@
 .book-pictures {
   padding-top: 5%;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
-#img-book-1, #img-book-2, #img-book-3 {
+#img-book-1, #img-book-2 {
   cursor: pointer;
   transition: 0.4s;
   width: 25%;
   margin-right: 5%;
+}
+
+#img-book-3 {
+  cursor: pointer;
+  transition: 0.4s;
+  width: 25%;
 }
 
 #img-book-1:hover,
