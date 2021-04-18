@@ -5,6 +5,9 @@ function getModalImage(x) {
   var id3 = "modal-" + x;
   var id4 = "caption" + x;
 
+  button = document.getElementById("top");
+  button.style.display = "none";
+
   // Get the modal
   var modal = document.getElementById(id1);
 
@@ -28,6 +31,8 @@ function getModalImage(x) {
   // When the user clicks on <span> (x), close the modal
   span1.onclick = function() {
     modal.style.display = "none";
+    button.style.display = "block";
+    console.log(document.documentElement.scrollTop)
   }
 
   span2.onclick = function() {
