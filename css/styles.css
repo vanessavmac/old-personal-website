@@ -304,6 +304,7 @@ footer {
   }
   .pho-animation-wrapper {
     z-index: -99;
+    width: 60%;
     position: absolute;
     right: 5%;
     top: 65%;
