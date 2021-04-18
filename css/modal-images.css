@@ -1,6 +1,7 @@
 .book-pictures {
   padding-top: 5%;
-  padding-left: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 #img-book-1, #img-book-2, #img-book-3 {
