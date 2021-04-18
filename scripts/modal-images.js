@@ -32,19 +32,21 @@ function getModalImage(x) {
   span1.onclick = function() {
     modal.style.display = "none";
     button.style.display = "block";
-    console.log(document.documentElement.scrollTop)
   }
 
   span2.onclick = function() {
     if (x == 1) {
       modal.style.display = "none";
       getModalImage(3);
+      x=3;
     } else if (x == 2) {
       modal.style.display = "none";
       getModalImage(1);
+      x=1;
     } else {
       modal.style.display = "none";
       getModalImage(2);
+      x=2;
     }
   }
 
@@ -52,12 +54,15 @@ function getModalImage(x) {
     if (x == 1) {
       modal.style.display = "none";
       getModalImage(2);
+      x=2;
     } else if (x == 2) {
       modal.style.display = "none";
       getModalImage(3);
+      x=3;
     } else {
       modal.style.display = "none";
       getModalImage(1);
+      x=1;
     }
   }
 
@@ -66,23 +71,29 @@ function getModalImage(x) {
       if (x == 1) {
         modal.style.display = "none";
         getModalImage(2);
+        x=2;
       } else if (x == 2) {
         modal.style.display = "none";
         getModalImage(3);
+        x=3;
       } else {
         modal.style.display = "none";
         getModalImage(1);
+        x=1;
       }
     } else if (event.key == 'ArrowLeft') {
       if (x == 1) {
         modal.style.display = "none";
         getModalImage(3);
+        x=3;
       } else if (x == 2) {
         modal.style.display = "none";
         getModalImage(1);
+        x=1;
       } else {
         modal.style.display = "none";
         getModalImage(2);
+        x=2;
       }
     }
   });
