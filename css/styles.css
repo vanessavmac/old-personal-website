@@ -299,6 +299,9 @@ footer {
   h1 {
     font-size: 50px;
   }
+  h3 {
+    margin-top: 20px;
+  }
   .introduction {
     padding-right: 5%;
   }
