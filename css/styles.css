@@ -171,7 +171,7 @@ footer {
   margin: 0 5px 10px;
   min-width: 6px;
   height: 100px;
-  background-color: #bec8d1;
+  background-color: #dce1e6;
   border-radius: 70%;
   animation: animate 8s linear infinite;
   opacity: 0;
@@ -317,8 +317,8 @@ footer {
     z-index: -99;
     width: 90%;
     position: absolute;
-    right: 5%;
-    top: 65%;
+    right: 10%;
+    top: 67%;
     padding: 0;
   }
   .hobbies {
