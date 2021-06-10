@@ -3,29 +3,27 @@
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vanessa Mac</title>
   <link rel="shortcut icon" href="images/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/modal-images.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 
 <body>
-  <button id="top" type="button" class="btn btn-info" onclick="topFunction()">&uarr;</button>
-  <script src="scripts/scroll.js"></script>
-
   <div class="container-1 row aboutMe">
-    <div class="introduction col-md-7" data-aos="fade-right" data-aos-duration="1000">
+    <div class="introduction col-md-7">
       <h1>hi, i'm vanessa!</h1>
-      <p>a biomedical engineering student who loves phở :)</p>
+      <p>a biomedical engineering student who loves phở</p>
       <div class="contact-me">
-        <a type="button" class="btn btn-outline-info" href="https://drive.google.com/file/d/1Y91gzo__FCo1aI6Y5oqOQH-4Qpe0GaBm/view?usp=sharing">Resume</a>
+        <a href="https://drive.google.com/file/d/1Y91gzo__FCo1aI6Y5oqOQH-4Qpe0GaBm/view?usp=sharing" class="btn btn-outline-info" role="button">Resume</a>
+
         <a href="https://www.linkedin.com/in/vanessa-mac-6168a5150/">
           <img id="linkedin" src="images/linkedin-logo.png" alt="">
         </a>
@@ -38,7 +36,7 @@
       </div>
     </div>
 
-    <div class="pho-animation-wrapper col-md-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+    <div class="pho-animation-wrapper col-md-5">
       <img class="pho" src="images/pho.png">
 
       <div class="dancing-icon">
@@ -75,47 +73,48 @@
   </div>
 
   <div class="container-2">
-    <div>
-      <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-          <img class="profile-picture" src="images/profile-picture.png">
-        </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <p class="personal-statement" data-aos="fade-up" data-aos-duration="500">I am interested in designing affordable assistive devices that are tailored to the user's unique needs, particularly in the area of bionic limbs.</p>
-        </div>
-      </div>
-    </div>
+    <img class="profile-picture" src="images/profile-picture.png">
+    <h2>👋 nice to meet you!</h2>
+    <p class="personal-statement">My name is Vanessa and I am passionate about designing technology that can positively impact one's daily health. In particular, I am interested in learning about designing affordable prosthetics.</p>
   </div>
 
   <div class="container-3">
-    <div>
-      <div class="hobbies">
-        <img src="images/microphone.png" style="margin-right: 2%">
-        <img src="images/phonatic.png" style="margin-right: 2%">
-        <img src="images/running.png">
-      </div>
-      <div class="row">
-        <div class="col-md-3"></div>
-        <div class="col-md-6">
-          <p class="hobbies-description" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">My hobbies include singing in my school's choir, eating phở, and running!</p>
-        </div>
+    <div class="hobbies">
+      <img src="images/microphone.png" style="margin-right: 2%">
+      <img src="images/phonatic.png" style="margin-right: 2%">
+      <img src="images/running.png">
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <p class="hobbies-description">My hobbies include singing, eating phở, and running!</p>
       </div>
     </div>
   </div>
 
-  <!--Include softwares, skills i developed, what I did, what i learned, pictures, modal images, make the heading for each card take up more grid space - doesn't fit in the responsive mode, add links-->
-
   <!--data-aos="fade-right" data-aos-duration="1000"-->
   <div class="container-4">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <h1>experience & projects</h1>
-    </div>
+    <h1 class="main-headers">personal projects</h1>
 
-    <section class="web-development">
+    <section class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-5" style="padding-left:2%; padding-top: 5%;">
+        <a href="https://github.com/vanessavmac/vanessavmac.github.io"><img id="card-image" src="images/front-end-dev.png" onmouseover="this.src='images/front-end-dev-hover.png'" onmouseout="this.src='images/front-end-dev.png'"></a>
+        <h4>Coding my personal website.</h4>
+        <h6 class="card-tagline">coding a website using Boostrap 5, HTML, CSS, and Javascript.</h6>
+      </div>
+      <div class="col-md-5" style="padding-left:2%; padding-top: 5%;">
+        <a href=""><img id="card-image" src="images/underconstruction.png"></a>
+        <h4>Designing a prosthetic socket.</h4>
+        <h6 class="card-tagline">using Fusion 360 to design an affordable prosthetic socket.</h6>
+      </div>
+    </section>
+  </div>
+
+  <div class="container-5">
+    <h1 class="main-headers">experience</h1>
+
+    <!-- <section class="web-development">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="align-cards experience-header col-md-10">
@@ -135,9 +134,9 @@
               <p class="card-text">
               <p class="card-heading">What I Did:</p>
               <ul>
-                <li>Learned how to use Bootstrap 5.</li>
+                <li>Learned how to use Bootstrap 5 and create a responsive website.</li>
                 <li>Learned how to add animations using CSS and Javascript.</li>
-                <li>Experimented with several layouts and learned about the characteristics of a good website design.</li>
+                <li>Prototyped, received feedback, and designed several websites and learned about the UX design process.</li>
               </ul>
               </p>
               <a href="https://github.com/vanessavmac/vanessavmac.github.io" class="btn btn-outline-info" role="button">My Code</a>
@@ -154,7 +153,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="book">
       <div class="row">
@@ -169,16 +168,17 @@
         <div class="align-cards col-md-10">
           <div class="card">
             <div class="card-body">
-              <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a>
-              <a class="btn btn-light disabled" role="button" aria-disabled="true">🎨 Graphic Design (Canva)</a>
+              <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a>
+              <a class="btn btn-light disabled" role="button" aria-disabled="true">🎨 Graphic Design</a> -->
               <p class="card-text">
               <p class="card-heading">What I Did:</p>
               <ul>
                 <li>Published <i>Resilience: Stories of Cancer Survivorship</i>, a book about the experiences of 14 cancer survivors and activists.</li>
-                <li>Conducted interviews with cancer survivors based in five countries.</li>
-                <li>Collaborated with a team of artists/writers to create an illustration and writing piece about each interviewee's experiences.</li>
+                <li>Conducted interviews with 14 cancer survivors and patients based in five countries.</li>
+                <li>Collaborated with 28 artists/writers to create illustration and writing piece about each interviewee's experiences.</li>
                 <li>Designed the book layout, wrote short biographies for each of of the featured cancer survivors, and handled publishing logistics.</li>
-                <li>All profits collected from the book will be donated to the Childhood Cancer Canada Foundation.</li>
+                <li>Worked with Childhood Cancer Canada (a registered charity) to distribute the book's profits to support cancer research and Canadian childhood cancer
+                  families in active treatment who have been financially impacted by the current crisis.</li>
               </ul>
               </p>
               <a href="https://eyehopecanada.com/?page_id=591" class="btn btn-outline-info" role="button">More Information</a>
@@ -240,13 +240,13 @@
         <div class="align-cards col-md-10">
           <div class="card">
             <div class="card-body">
-              <a class="btn btn-light disabled" role="button" aria-disabled="true">💻 Amira</a>
+              <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">💻 Amira</a> -->
               <p class="card-text">
               <p class="card-heading">What I Did:</p>
               <ul>
                 <li>Collaborated with master’s students on using machine learning to create MR image segmentation tools that improve the diagnosis and treatment of gestational disorders.</li>
                 <li>Learned how to segment and analyze MR images using Amira software.</li>
-                <li>Presented at weekly meetings about medical imaging concepts to Ph.D. students.</li>
+                <li>Presented with biomedical engineering students at weekly meetings about medical imaging concepts we learned about.</li>
               </ul>
               </p>
             </div>
@@ -268,13 +268,13 @@
         <div class="align-cards col-md-10">
           <div class="card">
             <div class="card-body">
-              <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a>
+              <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a> -->
               <p class="card-text">
               <p class="card-heading">What I Did:</p>
               <ul>
-                <li>Led a team of 50 high school and university students.</li>
-                <li>Organized marketing, sponsorship, and logistics for 4 large-scale fundraising campaigns.</li>
-                <li>Raised over $1000 for the Canadian Retinoblastoma Society and SickKids. The donations will help support Canadian families affected by eye cancer.</li>
+                <li>Led a team of 50 high school and university students to organize 4 large-scale fundraising campaisngs.</li>
+                <li>Organized social media advertisements, created sponsorship materials and managed finances.</li>
+                <li>Raised over $1000 in donations. The donations were used to support the Canadian Retinoblastoma Society and SickKids Hospital.</li>
               </ul>
               </p>
               <a href="https://www.instagram.com/eyehopecanada/" class="btn btn-outline-info" role="button">Instagram</a>
@@ -306,11 +306,12 @@
   <script>
     AOS.init();
   </script>
-  <!--Bootstrap Scripts-->
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!--Bootstrap Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  <button id="top" type="button" class="btn btn-info" onclick="topFunction()">&uarr;</button>
+  <script src="scripts/scroll.js"></script>
 </body>
 
 </html>
