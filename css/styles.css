@@ -375,11 +375,15 @@ footer {
   .container-4 {
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 15%;
+    padding-top: 15%;
   }
 
   .container-5 {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15%;
+    padding-top: 15%;
   }
 
   #card-image {
