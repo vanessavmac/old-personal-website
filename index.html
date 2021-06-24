@@ -14,13 +14,14 @@
   <link rel="stylesheet" href="css/modal-images.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
   <div class="container-1 row aboutMe">
     <div class="introduction col-md-7">
-      <h1>hi, i'm vanessa!</h1>
-      <p>a biomedical engineering student who loves phở</p>
+      <h1 data-aos="fade-right" data-aos-duration="1000">hi, i'm vanessa!</h1>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">a biomedical engineering student who loves phở</p>
       <div class="contact-me">
         <a href="https://drive.google.com/file/d/1-s2uDmdJ9QXzJiG3GVgyijVI7Yy5oOsG/view?usp=sharing" class="btn btn-outline-info" role="button">Resume</a>
 
@@ -36,7 +37,7 @@
       </div>
     </div>
 
-    <div class="pho-animation-wrapper col-md-5">
+    <div class="pho-animation-wrapper col-md-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
       <img class="pho" src="images/pho.png">
 
       <div class="dancing-icon">
@@ -74,8 +75,8 @@
 
   <div class="container-2">
     <img class="profile-picture" src="images/profile-picture.png">
-    <h2>👋 nice to meet you!</h2>
-    <p class="personal-statement">My name is Vanessa and I am passionate about designing technology that can positively impact one's daily health. In particular, I am interested in neurotechnology and bionic prosthetics.</p>
+    <h2 data-aos="fade-in" data-aos-duration="700">👋 nice to meet you!</h2>
+    <p class="personal-statement" data-aos="fade-in" data-aos-duration="1000">My name is Vanessa and I am passionate about designing technology that can positively impact one's daily health. In particular, I am interested in neurotechnology and bionic prosthetics.</p>
   </div>
 
   <div class="container-3">
@@ -87,12 +88,11 @@
     <div class="row">
       <div class="col-md-3"></div>
       <div class="col-md-6">
-        <p class="hobbies-description">My hobbies include singing, eating phở, and running!</p>
+        <p class="hobbies-description" data-aos="fade-in" data-aos-duration="1000">My hobbies include singing, eating phở, and running!</p>
       </div>
     </div>
   </div>
 
-  <!--data-aos="fade-right" data-aos-duration="1000"-->
   <div class="container-4">
     <h1 class="main-headers">passion projects</h1>
 
@@ -113,6 +113,7 @@
 
   <div class="container-5">
     <h1 class="main-headers">what i've been up to recently</h1>
+
 
     <!-- <section class="web-development">
       <div class="row">
@@ -156,32 +157,27 @@
     </section> -->
 
     <section class="book">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="align-cards experience-header col-md-10">
-          <h3>Team Lead for Book Publication</h3>
-          <p>Eye Hope Canada | <span style="color: grey">Nov 2020-May 2021</span></p>
+      <div  data-aos="fade-up" data-aos-duration="700">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="align-cards experience-header col-md-10">
+            <h3>Team Lead for Book Publication</h3>
+            <p>Eye Hope Canada | <span style="color: grey">Nov 2020-May 2021</span></p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="align-cards col-md-10">
-          <div class="card">
-            <div class="card-body">
-              <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a>
-              <a class="btn btn-light disabled" role="button" aria-disabled="true">🎨 Graphic Design</a> -->
-              <p class="card-text">
-              <p class="card-heading">What I Did:</p>
-              <ul>
-                <li>Published <i>Resilience: Stories of Cancer Survivorship</i>, a book about the experiences of 14 cancer survivors and activists.</li>
-                <li>Conducted interviews with 14 cancer survivors and patients based in five countries.</li>
-                <li>Collaborated with 28 artists/writers to create illustration and writing piece about each interviewee's experiences.</li>
-                <li>Designed the book layout, wrote short biographies for each of of the featured cancer survivors, and handled publishing logistics.</li>
-                <li>Donated the profits to Childhood Cancer Canada (a registered charity) to support cancer research and Canadian childhood cancer
-                  families in active treatment who have been financially impacted by the pandemic.</li>
-              </ul>
-              </p>
-              <a href="https://eyehopecanada.com/?page_id=591" class="btn btn-outline-info" role="button">Shop</a>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="align-cards col-md-10">
+            <div class="card rounder">
+              <div class="card-body">
+                <p class="card-text">
+                <ul>
+                  <li>Published <i>Resilience: Stories of Cancer Survivorship</i>, a collection of illustrations, poems, and short stories about the experiences of 14 cancer survivors and activists. Donated the profits to Childhood Cancer Canada.</li>
+                  <li>Conducted interviews with 14 cancer survivors, designed the book layout, wrote short biographies for each of of the featured cancer survivors, and handled publishing logistics.</li>
+                </ul>
+                </p>
+                <a href="https://eyehopecanada.com/?page_id=591" class="btn btn-outline-info card-button" role="button">Shop</a>
+              </div>
             </div>
           </div>
         </div>
@@ -227,7 +223,7 @@
 
     </section>
 
-    <section class="ibest">
+    <section class="ibest" data-aos="fade-up" data-aos-duration="700">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="align-cards experience-header col-md-10">
@@ -242,9 +238,8 @@
             <div class="card-body">
               <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">💻 Amira</a> -->
               <p class="card-text">
-              <p class="card-heading">What I Did:</p>
               <ul>
-                <li>Collaborated with master’s students on using machine learning to create MR image segmentation tools that improve the diagnosis and treatment of gestational disorders.</li>
+                <li>Collaborated with master’s students on using machine learning to create MR image segmentation tools to effectively diagnose gestational disorders.</li>
                 <li>Learned how to segment and analyze MR images using Amira software.</li>
                 <li>Presented with biomedical engineering students at weekly meetings about medical imaging concepts we learned about.</li>
               </ul>
@@ -255,7 +250,7 @@
       </div>
     </section>
 
-    <section class="fundraising">
+    <section class="fundraising" data-aos="fade-up" data-aos-duration="700">
       <div class="row">
         <div class="col-md-1"></div>
         <div class="align-cards experience-header col-md-10">
@@ -270,14 +265,13 @@
             <div class="card-body">
               <!-- <a class="btn btn-light disabled" role="button" aria-disabled="true">📅 Project Management</a> -->
               <p class="card-text">
-              <p class="card-heading">What I Did:</p>
               <ul>
                 <li>Led a team of 50 high school and university students to organize 4 large-scale fundraising campaisngs.</li>
                 <li>Organized social media advertisements, created sponsorship materials and managed finances.</li>
-                <li>Raised over $1000 in donations. The donations were used to support the Canadian Retinoblastoma Society and SickKids Hospital.</li>
+                <li>Raised over $1500 in donations. The donations were used to support the Canadian Retinoblastoma Society and SickKids Hospital.</li>
               </ul>
               </p>
-              <a href="https://www.eyehopecanada.com/" class="btn btn-outline-info" role="button">Website</a>
+              <a href="https://www.eyehopecanada.com/" class="btn btn-outline-info card-button" role="button">Website</a>
             </div>
           </div>
         </div>
@@ -285,9 +279,9 @@
 
       <div class="row">
         <div class="fundraising-pictures col-md-12">
-          <img id="img-fundraising-1" src="images/fundraising-1.jpeg" width="25%" height="100%">
-          <img id="img-fundraising-2" src="images/fundraising-2.jpeg" width="25%" height="100%">
-          <img id="img-fundraising-3" src="images/fundraising-3.jpeg" width="25%" height="100%">
+          <img id="img-fundraising-1" src="images/fundraising-1.jpeg" width="20%" height="100%">
+          <img id="img-fundraising-2" src="images/fundraising-2.jpeg" width="20%" height="100%">
+          <img id="img-fundraising-3" src="images/fundraising-3.jpeg" width="20%" height="100%">
         </div>
       </div>
   </div>
