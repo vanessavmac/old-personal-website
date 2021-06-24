@@ -10,12 +10,13 @@ h1 {
 
 .main-headers {
   margin-top: 0;
-  font-size: 60px;
   text-align: center;
+  color: black;
+  font-size: 45px;
+  text-shadow: 2px 2px #5ea3d1;
 }
 
 h2 {
-  font-size: 30px;
   color: white;
   text-align: center;
   padding-top: 3%;
