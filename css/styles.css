@@ -141,19 +141,19 @@ footer {
 
 #linkedin {
   width: 30px;
-  height: auto;
+  height: 30px;
   margin-left: 3%;
 }
 
 #gmail {
   width: 40px;
-  height: auto;
+  height: 40px;
   margin-left: 3%;
 }
 
 #github {
   width: 35px;
-  height: auto;
+  height: 35px;
   margin-left: 3%;
 }
 
@@ -264,7 +264,6 @@ footer {
 
 .profile-picture {
   width: 30vh;
-  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
