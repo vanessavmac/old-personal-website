@@ -126,7 +126,7 @@ footer {
 .container-1 {
   display: block;
   width: 100vw;
-  height: 100vh;
+  padding-bottom: 40vh;
 }
 
 .introduction {
@@ -394,6 +394,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
+  .container-1 {
+    padding-bottom: 70vh;
+  }
 
   .container-4 {
     padding-right: 20px;
